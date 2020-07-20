@@ -1,0 +1,23 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+* {
+    touch-action: pan-y;
+    moz-user-select: -moz-none;
+    /* 文字限制能或者不能复制 */
+    -webkit-touch-callout: text;
+    /*系统默认菜单被禁用*/
+    -webkit-user-select: text;
+    /*webkit浏览器*/
+    -khtml-user-select: text;
+    /*早期浏览器*/
+    -moz-user-select: text;
+    /*火狐*/
+    -ms-user-select: text;
+    /*IE10*/
+    user-select: text;
+}
